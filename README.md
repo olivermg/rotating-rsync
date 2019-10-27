@@ -1,6 +1,6 @@
 # rotating-rsync
 
-A script to help you keep backups of your data.
+A script to help you keep historical copies ("backups") of your data.
 
 It will use a given source directory and keep a configured amount of 
 historical copies of the data.
@@ -19,8 +19,8 @@ This script is thus meant to be called in desired intervals, e.g. via cron.
 
 ## Examples
 
-For example to keep the 4 daily, 3 weekly and 2 monthly backups you could
-use the crontab below:
+For example to keep the 4 most recent daily, 3 weekly and 2 monthly backups
+you could use the crontab below:
 
 ```cron
 # m   h  dom mon dow   command
