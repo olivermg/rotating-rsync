@@ -9,7 +9,7 @@ Running
 ```bash
 rotating-rsync.sh /path/to/my/data bak 1 2 3
 ```
-will for example run the following rsyncs:
+will for example run the following [rsyncs](https://en.wikipedia.org/wiki/Rsync):
 
 1. `/path/to/my/bak2` -> `/path/to/my/bak3`
 2. `/path/to/my/bak1` -> `/path/to/my/bak2`
