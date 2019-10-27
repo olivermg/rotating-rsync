@@ -15,7 +15,7 @@ BASEDIR=$(dirname $ORIGINALDIR)
 
 BAKNAME=$1
 if [ -z "$BAKNAME" ]; then
-	BAKNAME=daily
+	BAKNAME=backup
 fi
 shift
 
